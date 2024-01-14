@@ -2482,7 +2482,7 @@ it {
 		white-space: nowrap;
 	}
 	button.backbutton{
-		position: fixed;
+		position: absolute;
 		top: 0;
 		left: 2em;
 		background: transparent;
