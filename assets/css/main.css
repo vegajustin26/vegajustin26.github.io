@@ -2219,7 +2219,7 @@ it {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 1em 0 1em;
 		}
 
 			ul.icons li:last-child {
@@ -2482,7 +2482,7 @@ it {
 		white-space: nowrap;
 	}
 	button.backbutton{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 2em;
 		background: transparent;
@@ -2598,6 +2598,7 @@ it {
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			text-align: center;
 		}
 
 		.work-item p {
@@ -2663,11 +2664,11 @@ it {
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+			font-size: 1.5em;
 		}
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}
